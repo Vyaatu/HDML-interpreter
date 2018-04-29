@@ -1,0 +1,1 @@
+input x in let double = fn (x:(int)) -> x * 2 in double x

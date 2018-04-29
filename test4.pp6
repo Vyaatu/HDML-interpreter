@@ -1,0 +1,3 @@
+fun unittest(u : unit) : int = 3
+
+input x in x + unittest()

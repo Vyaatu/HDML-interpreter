@@ -1,0 +1,1 @@
+fun f(x : int): int = x input x in let f = x in f f

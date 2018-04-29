@@ -1,0 +1,23 @@
+name: HDML
+version: 1.0
+cabal-version: >= 1.11
+build-type: Simple
+stability: experimental
+extra-source-files:
+    *.pp6
+
+Executable HDML
+  main-is: Main.hs
+  buildable: True
+  build-depends:
+      base -any,
+      containers -any,
+      parsec -any
+  other-modules:
+      DataTypes
+      AST
+      Parser
+      WojciechJarzabek
+      WojciechJarzabekTests
+  default-language:
+      Haskell2010

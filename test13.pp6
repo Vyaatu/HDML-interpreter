@@ -1,0 +1,1 @@
+input x in let f = fn(x:int) -> let f = fn(x:int) -> x in f x in f x

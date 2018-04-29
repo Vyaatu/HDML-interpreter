@@ -1,0 +1,9 @@
+fun map (f:int->int):int list -> int list =
+    fn (xs:(int list)) -> match xs with
+    | [] -> []:int list
+    | x::xs -> (f x) :: (map f xs) 
+
+    in let lst = map (fn (x:(int)) -> x+5) [4,3,2,1]:int list
+        in match lst with
+           | [] -> 0
+           | x::xs -> x

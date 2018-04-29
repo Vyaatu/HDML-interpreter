@@ -1,0 +1,1 @@
+input x y in let f = fn(a:(int*int)) -> fst a + snd a in f (x,y)
